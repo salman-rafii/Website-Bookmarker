@@ -1,0 +1,39 @@
+
+
+
+div.container-1{
+    display: flex;
+    justify-content: space-around;
+}
+.header{
+    background-color: #ed078d;
+    padding: 10px;
+    color:#fff;
+    font-weight: bolder;
+}
+h3{
+    background-color:#c1011b;
+    color: white;
+    padding: 2px;
+    text-align: center;
+}
+
+div.container-1 div,div.container-2 div{
+   
+    padding: 30px;
+}
+
+.width{
+    flex-basis:25%;
+    
+}
+
+#btn{
+    
+    width: 100%;
+    padding: 10px;
+}
+div.container-2{
+    display: flex;
+    justify-content: space-around;
+}

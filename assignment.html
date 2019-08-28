@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ 
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/assign.css">
+    <script>
+    function ik(){
+        alert('you voted imran khan');
+    }
+    function b(){
+        alert('you voted bilawal bhutto');
+    }
+    function ss(){
+        alert('you voted shahbaz sharif');
+    }
+    function ns(){
+        alert('you voted nawaz sharif');
+    }
+   
+    </script>
+    <title>Document</title>
+</head>
+<body style="background-image:url('img/voteee.jpg'); background-size: cover;">
+
+    <header>
+        <h1  class="text-center header">Vote For Your Favourite Leader </h1>
+    </header>
+
+    <div class="container-1">
+        <div class="box-1 width">
+            <h3>Imran Khan</h3>
+           
+            <img  width="300px" height="200px" src="img/ik.jpg" alt=""><br><br>
+
+           <button onclick="ik()" type="submit" id="btn" class="btn btn-success large">Vote</button>
+
+        </div>
+        <div class="box-2 width">
+                <h3>Bilawal Bhutto</h3>
+                <img  width="300px" height="200px" class="rounded"  src="img/b.jpg" alt=""><br>        <br>
+                <button onclick="b()" type="submit" id="btn" class="btn btn-success">Vote</button>
+        </div>
+    </div>
+    <br>
+    <div class="container-2">
+            <div class="box-3 width">
+                    <h3>Shahbaz Sharif</h3>
+                    <img  width="300px" height="200px" src="img/ss.jpg" alt=""><br> <br>
+                    <button onclick="ss()" type="submit" id="btn" class="btn btn-success">Vote</button>
+            </div>
+            <div class="box-4 width">
+                    <h3>Nawaz Sharif</h3>
+                    <img  width="300px" height="200px" src="img/ns.jpg" alt=""><br> <br>
+                    <button onclick="ns()" type="submit" id="btn" class="btn btn-success">Vote</button>
+            </div>
+        </div>
+    
+
+        <div>
+                <img  width="300px" height="200px" id="ik" src="img/ik.jpg" alt="">
+        </div>
+        <div>
+                <img  width="300px" height="200px" id="bb" src="img/b.jpg" alt="">
+        </div>
+        <button onclick="swap()">SWAP</button>
+</body>
+</html>
